@@ -17,6 +17,9 @@
 
 - Organização em subgrupos (Sublinguagens).
 
+
+- Use DESC para descrever as tabelas
+
 > Sublinguagens do SQL
 
 O SQL é dividido em categorias conforme o tipo de operação executada.
@@ -264,11 +267,3 @@ ON e.department_id = d.department_id;
 - **POSTGREE**: Otimizado para aplicações complexas. Grande volume de dados. Ex: E-commerce. 
 
 Ponderações: MySQL não consegue desfazer ações. 
-
-
-
-
-
-
-
-
