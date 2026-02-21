@@ -6,6 +6,19 @@ Este projeto consiste em um dashboard interativo desenvolvido no Excel para aná
 
 O dashboard foi construído utilizando **Tabelas Dinâmicas** para o processamento dos dados e **Gráficos Dinâmicos** conectados por segmentadores de dados, garantindo uma experiência interativa e em tempo real.
 
+---
+
+## Base de Dados
+
+A base de dados utilizada contém informações detalhadas de cada transação, incluindo:
+
+* **Subscriber ID & Name**: Identificação única dos clientes.
+* **Plan & Subscription Type**: Detalhes sobre o nível da assinatura (Standard ou Ultimate) e a recorrência (Mensal, Trimestral ou Anual).
+* **Auto Renewal**: Status indicando se o cliente optou pela renovação automática da assinatura.
+* **Total Value**: O faturamento líquido final por transação, considerando o preço base e o uso de cupons de desconto.
+
+---
+
 ## Questões de Negócio Abordadas
 
 O painel foi desenhado para responder a 6 questões fundamentais para a gestão do serviço:
