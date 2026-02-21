@@ -37,18 +37,18 @@ O painel foi desenhado para responder a 6 questões fundamentais para a gestão 
 O layout foi planejado para seguir a identidade visual da marca (Xbox), utilizando tons de verde e um modo escuro (Dark Mode) para facilitar a leitura.
 
 * **Cabeçalho**: Identificação do período de avaliação e data de atualização (21/02/2026).
-* **Slicers (Filtros)**: Filtro lateral para alternar entre tipos de assinatura (Annual, Monthly, Quarterly).
+* **Filtros**: Filtro lateral para alternar entre tipos de assinatura (Annual, Monthly, Quarterly).
 * **Cards de Valor**: Localizados no topo para visualização rápida do faturamento por serviço (EA Play e Minecraft).
 * **Gráficos Analíticos**:
 * **Subscriptions by Plan**: Gráfico de Rosca para análise de mix de produtos.
 * **Auto Renewal Status**: Gráfico de Pizza para análise de retenção.
-* **Top 10 Customers by Revenue**: Gráfico de Barras horizontais destacando os clientes com maior LTV (Lifetime Value).
+* **Top 10 Customers by Revenue**: Gráfico de Barras horizontais destacando os clientes com maior LTV .
 ---
 
 ### Como reproduzir:
 
 1. Baixe o arquivo `.xlsx` deste repositório.
-2. Abra no Microsoft Excel (recomenda-se versão 2019 ou superior para compatibilidade total dos gráficos).
+2. Abra no Microsoft Excel 
 3. Navegue até a aba `Dashboard` para interagir com os dados.
 
 ---
