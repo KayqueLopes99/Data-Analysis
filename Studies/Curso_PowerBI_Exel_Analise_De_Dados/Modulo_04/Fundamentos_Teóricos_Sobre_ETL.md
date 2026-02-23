@@ -51,4 +51,11 @@ Responsável: Profissionais de analise de dados. Contato direto com regras de ne
 > **Vantagens do ELT**
 - Limitação de dados (Quais dados estão disponíveis?)
 - Suporte à Data Warehouses (Como lidar com os dados?)
-- Usabilidade (ata Warehouses)
+- Usabilidade (data Warehouses)
+
+
+#### Qual escolher? ETL ou ELT?
+- Depende do contexto e dos requisitos do projeto. O ETL é mais adequado para ambientes onde a transformação de dados é complexa e requer um controle rigoroso, enquanto o ELT é ideal para ambientes de big data, onde a capacidade de processamento do sistema de destino pode ser aproveitada para realizar transformações complexas. A escolha entre ETL e ELT deve levar em consideração fatores como o volume de dados, a complexidade das transformações necessárias e os recursos disponíveis para implementação e manutenção.
+
+> Foco ETL: Transformação prévia. Controle rigoroso.
+> Foco ELT: Transformação posterior. Aproveitamento da capacidade de processamento do sistema de destino.
