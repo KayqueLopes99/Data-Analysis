@@ -12,7 +12,7 @@
 > Modelagem Dimensional
 - Modelagem Dimensional é uma técnica de design de banco de dados voltada para a organização eficiente de dados para análise e relatórios.
 - O objetivo é facilitar a consulta e a análise de dados, especialmente em ambientes de Business Intelligence e Data Warehousing.
-- Motivação: • Performance • Escalabilidade • Disponibilidade
+- Motivação: - Performance - Escalabilidade - Disponibilidade
 
 - Sistemas de Dados
 - **Modelo transacional – tradicional**: focado em operações de leitura e escrita, otimizado para transações rápidas e integridade dos dados.
@@ -137,29 +137,46 @@ analisado)
 
 
 
+> Modelo relacional:
+- é um modelo de banco de dados que organiza os dados em tabelas (ou relações) compostas por linhas e colunas. Cada tabela representa uma entidade ou conceito, e as colunas representam os atributos dessa entidade. O modelo relacional é baseado na teoria dos conjuntos e utiliza chaves primárias e estrangeiras para estabelecer relacionamentos entre as tabelas, permitindo consultas complexas e a integridade dos dados. 
+
+- Ele é bem estruturado no desenho das tabelas que fazemos atualamente. 
 
 
 
+#### Modelo Dimensional – Slowly Changing Dimensions
+
+- Relacionados as mudanças temporais dos dados
+
+Tipo de dimensão
+- *SCD-0*.
+- **SCD-1, 2**.
+- **SCD-3, 4, 5**.
+- **SCD-6 [1,2,3]**.
 
 
+Tipo SCD-0
+- Não há modificação
+- Modo passive
+- TRUNCATE TABLE – sem histórico
 
 
+Tipo SCD-1
+- Atualização dos valores
+- Sem rastreamento de mudanças
+- UPDATE ou INSERT
 
+Tipo SCD-2
+- Preocupação com histórico
+- Modos distintos de rastrear as mudanças
 
+Tipo SCD-3
+- Novos atributos (colunas) são criados
+- Manter o estado de um atributo específico
 
+Tipo SCD-4
+- Manutenção do histórico com Tabela de histórico
+- Mesma estrutura
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Tipo SCD-6
+- Junção dos tipor 1, 2 e 3 = 6 (somatório)
