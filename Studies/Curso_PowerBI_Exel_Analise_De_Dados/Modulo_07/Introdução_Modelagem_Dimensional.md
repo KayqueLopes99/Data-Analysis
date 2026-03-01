@@ -130,6 +130,7 @@ analisado)
 
 - Intuito: evitar sobreposição de chaves naturais, garantir unicidade e facilitar a identificação de registros no modelo dimensional.
 
+- A chave especial na modelagem dimensional que substitui a chave primária (PK) natural ou composta é a Surrogate Key (ou Chave Substituta). Ela é um identificador numérico, sequencial e artificial, gerado automaticamente, que não possui significado de negócio e garante alta performance em Data Warehouses.
 
 #### Site:
 - **app.sqldbm.com**: ferramenta de modelagem de banco de dados online que permite criar, visualizar e gerenciar esquemas de banco de dados de forma intuitiva. 
