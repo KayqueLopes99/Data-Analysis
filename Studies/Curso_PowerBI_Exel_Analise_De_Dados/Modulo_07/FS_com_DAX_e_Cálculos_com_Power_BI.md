@@ -227,3 +227,5 @@ RELACIONAMENTO: Conexão entre elas.
 O que é USERRELATIONSHIP?
 - Especifica o relacionamento
 - Cálculo da medida
+
+
