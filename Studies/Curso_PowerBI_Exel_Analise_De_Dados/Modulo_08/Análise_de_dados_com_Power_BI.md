@@ -44,3 +44,7 @@ Simplificação:
 - Exemplo: agrupar clientes por padrão de compra para estratégias de marketing direcionadas
 
 > Interação por animação: Play Axis.
+
+> Como examinar insights rápidos?: Power service, no worospace comforme seus dados.
+
+
