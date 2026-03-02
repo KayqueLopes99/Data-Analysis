@@ -1,4 +1,6 @@
 ## Construindo o Storytelling com Power BI
+> Storytelling no Power BI é a técnica de transformar dados e análises complexas em narrativas visuais claras, estruturadas e envolventes.
+
 - **Layout**: a organização estratégica de elementos em um espaço.
 > Projetando layout de Relatórios
 - Requisitos empresariais
@@ -10,13 +12,26 @@
 - Concentre-se no que é importante
 - Escolha o fundo ideal
 
-> Acessibilidade
+##### Acessibilidade
 
 **Perceptível** – as informações e os componentes da interface do usuário precisam ser apresentadas aos usuários de maneiras que eles possam percebê-los.
 
 **Operável** – os componentes e a navegação da interface do usuário precisam ser operáveis.
 
 **Compreensível** – as informações e a operação da interface do usuário precisam ser compreensíveis.
+
+#### Algumas ponderações
+> A navegabilidade deve ser ajustada na abaa Seleção (ordem de camadas).
+
+> Agrupe em conjuntos.
+
+> Navegabilidade com acessibilidade – Ordenando as camadas e tabulação.
+
+> Nomeações claras, concisas, diretas e sem abreviações. 
+
+> Utilizando marcadores para facilitar a leitura dos visuais. pontos nas transições noas graficos.
+
+
 
 ##### Recursos 
 
@@ -57,3 +72,7 @@ Ao expandir o painel Filtros, dependendo do item do relatório que você selecio
 - **Decrescente** - classifica o visual de acordo com a coluna selecionada na ordem do maior valor para o menor.
 - **Crescente** - classifica o visual de acordo com a coluna selecionada na ordem do menor valor para o maior.
 - **Classificar por** - classifica os dados de acordo com uma coluna específica. Focalize essa opção para exibir a lista de colunas entre as quais você pode selecionar.
+
+
+##### Gráfico de Sankey
+- É uma visualização que mostra fluxos e relacionamentos entre categorias através de conexões proporcionais. Útil para análise de movimentação de dados, vendas por canal ou mudanças de status em Power BI.
