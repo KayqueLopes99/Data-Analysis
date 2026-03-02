@@ -9,6 +9,12 @@ Criar um diagrama dimensional focado na análise do **Professor** como objeto pr
 
 O modelo foi estruturado centralizando os eventos de atribuição de aulas em uma Tabela Fato, cercada por tabelas Dimensão descritivas.
 
+---
+![](image.png)
+
+---
+
+
 ### Tabela Fato
 * **`Fato_Atribuicao`**: Registra o evento de um professor lecionando uma disciplina, para um curso específico, em um determinado departamento e período.
   * **Métricas analisadas**: `Qtd_Turmas`, `Qtd_Alunos`.
