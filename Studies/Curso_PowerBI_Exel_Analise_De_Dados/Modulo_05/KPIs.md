@@ -63,8 +63,6 @@ Visão objetiva. Performace.
 - Relevant (Relevante): O KPI deve ser relevante para os objetivos do negócio, para que seja útil para a tomada de decisões.
 - Time-bound (Temporal): O KPI deve ter um prazo definido, para que seja possível avaliar o desempenho em um período específico.
 
-Fala, Kaique! Aqui está a tradução completa de todo o texto da imagem, adaptada para o português mantendo o mesmo sentido:
-
 ### Diferenças: KPIs & Métricas
 
 **KPIs**
